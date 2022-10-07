@@ -1,0 +1,204 @@
+!SESSION 2022-08-26 12:40:44.570 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_SG
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+This is a continuation of log file D:\CE2007\.metadata\.bak_0.log
+Created Time: 2022-08-26 12:45:57.906
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-08-26 12:45:57.957
+!MESSAGE Indexed 'Control' (20 sources, 31 headers) in 24.2 sec: 2,057 declarations; 4,957 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.ti.ccstudio.errorparser 4 0 2022-08-26 12:46:03.768
+!MESSAGE An internal error was logged by 'com.ti.ccstudio.errorparser'.
+!STACK 0
+org.jsoup.HttpStatusException: HTTP error fetching URL. Status=410, URL=https://processors.wiki.ti.com/index.php/Compiler/diagnostic_messages/
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:590)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:587)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:540)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:227)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:216)
+	at com.ti.ccstudio.errorparser.parsers.PatternProvider$PatternData.fillup(PatternProvider.java:261)
+	at com.ti.ccstudio.errorparser.parsers.PatternProvider$PatternData.findMatch(PatternProvider.java:145)
+	at com.ti.ccstudio.errorparser.parsers.PatternProvider.getEmdUrl(PatternProvider.java:465)
+	at com.ti.ccstudio.errorparser.parsers.ErrorPattern.recordError(ErrorPattern.java:77)
+	at com.ti.ccstudio.errorparser.parsers.CoffErrorParser.processPendingMesg(CoffErrorParser.java:259)
+	at com.ti.ccstudio.errorparser.parsers.CoffErrorParser.doProcessLine(CoffErrorParser.java:103)
+	at com.ti.ccstudio.errorparser.parsers.BaseErrorParser.processLine(BaseErrorParser.java:307)
+	at org.eclipse.cdt.core.errorparsers.ErrorParserNamedWrapper.processLine(ErrorParserNamedWrapper.java:48)
+	at com.ti.ccstudio.project.core.internal.build.ProjectAdviceManager$AdviceContentHandler.endElement(ProjectAdviceManager.java:124)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327)
+	at javax.xml.parsers.SAXParser.parse(SAXParser.java:328)
+	at com.ti.ccstudio.project.core.internal.build.ProjectAdviceManager.processAdvice(ProjectAdviceManager.java:489)
+	at com.ti.ccstudio.project.core.internal.build.ProjectAdviceManager.handleAdviceChangingEvent(ProjectAdviceManager.java:450)
+	at com.ti.ccstudio.project.core.internal.build.ProjectAdviceManager.handleAdviceChangingEvent(ProjectAdviceManager.java:438)
+	at com.ti.ccstudio.project.core.internal.build.ProjectAdviceManager.onProjectImported(ProjectAdviceManager.java:414)
+	at com.ti.common.project.core.internal.events.ProjectStateMonitor$ResourceChangeListener$6.visit(ProjectStateMonitor.java:390)
+	at com.ti.common.project.core.internal.events.ProjectStateMonitor.notifyListeners(ProjectStateMonitor.java:848)
+	at com.ti.common.project.core.internal.events.ProjectStateMonitor.access$2(ProjectStateMonitor.java:837)
+	at com.ti.common.project.core.internal.events.ProjectStateMonitor$ResourceChangeListener.resourceChanged(ProjectStateMonitor.java:388)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:360)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-08-26 12:46:41.167
+!MESSAGE Indexed 'Lab1ref_TExaS' (7 sources, 14 headers) in 2.14 sec: 1,376 declarations; 3,205 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-08-26 12:46:43.480
+!MESSAGE Indexed 'Lab3ref_SimpleMotors' (8 sources, 14 headers) in 2.24 sec: 1,245 declarations; 2,895 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-08-26 12:56:23.804
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Error while executing OnRestart( 0 ): Specified reset is not allowed at this time
+	 at GEL_AdvancedReset("System Reset", 1) [msp432p401r.gel:355]
+	 at OnRestart(0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-08-26 13:57:33.257
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Error while executing OnRestart( 0 ): Specified reset is not allowed at this time
+	 at GEL_AdvancedReset("System Reset", 1) [msp432p401r.gel:355]
+	 at OnRestart(0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-08-26 13:59:57.059
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Error while executing OnRestart( 0 ): Specified reset is not allowed at this time
+	 at GEL_AdvancedReset("System Reset", 1) [msp432p401r.gel:355]
+	 at OnRestart(0)
+
+
+!ENTRY com.ti.ccstudio.system.setup.ui 1 0 2022-08-26 14:31:04.357
+!MESSAGE targetCfgPath1=C:/Users/BLU004/user/CCSTargetConfigurations
+
+!ENTRY com.ti.ccstudio.system.setup.ui 1 0 2022-08-26 14:31:05.701
+!MESSAGE targetCfgPath2=C:/Users/BLU004/ti/CCSTargetConfigurations
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-08-26 14:41:58.009
+!MESSAGE DS_ERROR: CS_DAP_0: Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-08-26 14:41:59.373
+!MESSAGE DS_ERROR: CS_DAP_0: Error: (Error -122 @ 0x0) A bad parameter value was detected within a function. It is likely a problem with `SC_ARGS' in SMG_call(). (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-08-26 14:41:59.545
+!MESSAGE DS_ERROR: CS_DAP_0: Unable to determine target status after 20 attempts
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-08-26 14:41:59.576
+!MESSAGE DS_ERROR: CS_DAP_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-08-26 14:41:59.607
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-08-26 14:41:59.638
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:43:52.408
+!MESSAGE Unable to locate file: C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\RSLKSelfTest\Debug\..\RSLKSelfTest_UARTmain.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:43:53.862
+!MESSAGE Unable to locate file: C:/CE2007/RSLK-Max-CE2007Labs-Instructor-23112021/CE2007/inc/EUSCIA0.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:43:55.159
+!MESSAGE Unable to locate file: C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\RSLKSelfTest\Debug\..\RSLKSelfTest_UARTmain.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:46:28.394
+!MESSAGE Unable to locate file: C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\RSLKSelfTest\Debug\..\RSLKSelfTest_UARTmain.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:46:31.352
+!MESSAGE Unable to locate file: C:/CE2007/RSLK-Max-CE2007Labs-Instructor-23112021/CE2007/inc/EUSCIA0.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:46:31.446
+!MESSAGE Unable to locate file: C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\RSLKSelfTest\Debug\..\RSLKSelfTest_UARTmain.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:53:24.144
+!MESSAGE Unable to locate file: C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\RSLKSelfTest\Debug\..\RSLKSelfTest_UARTmain.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:53:26.853
+!MESSAGE Unable to locate file: C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\RSLKSelfTest\Debug\..\startup_msp432p401r_ccs.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:53:26.869
+!MESSAGE Unable to locate file: /tmp/scratch/build_jenkins/workspace/BuildToolsLinux/build/arm/product/linux/lib-internal/src/copy_zero_init.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:53:26.900
+!MESSAGE Unable to locate file: /tmp/scratch/build_jenkins/workspace/BuildToolsLinux/build/arm/product/linux/lib-internal/src/pre_init.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:53:26.962
+!MESSAGE Unable to locate file: C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\RSLKSelfTest\Debug\..\RSLKSelfTest_UARTmain.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:53:30.447
+!MESSAGE Unable to locate file: /tmp/scratch/build_jenkins/workspace/BuildToolsLinux/build/arm/product/linux/lib-internal/src/boot.asm
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:53:30.510
+!MESSAGE Unable to locate file: /tmp/scratch/build_jenkins/workspace/BuildToolsLinux/build/arm/product/linux/lib-internal/src/exit.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:54:05.698
+!MESSAGE Unable to locate file: C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\RSLKSelfTest\Debug\..\RSLKSelfTest_UARTmain.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:54:05.823
+!MESSAGE Unable to locate file: C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\RSLKSelfTest\Debug\..\RSLKSelfTest_UARTmain.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:54:53.148
+!MESSAGE Unable to locate file: C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\RSLKSelfTest\Debug\..\RSLKSelfTest_UARTmain.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:54:53.508
+!MESSAGE Unable to locate file: C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\RSLKSelfTest\Debug\..\RSLKSelfTest_UARTmain.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:56:03.563
+!MESSAGE Unable to locate file: C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\RSLKSelfTest\Debug\..\RSLKSelfTest_UARTmain.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:56:17.534
+!MESSAGE Unable to locate file: /tmp/scratch/build_jenkins/workspace/BuildToolsLinux/build/arm/product/linux/lib-internal/src/boot.asm
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:56:17.596
+!MESSAGE Unable to locate file: /tmp/scratch/build_jenkins/workspace/BuildToolsLinux/build/arm/product/linux/lib-internal/src/exit.c
+
+!ENTRY org.eclipse.jface 2 0 2022-08-26 14:57:21.152
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-26 14:57:21.152
+!MESSAGE A conflict occurred for ALT+E:
+Binding(ALT+E,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.command1,Terminal view insert,
+		,
+		Category(org.eclipse.tm.terminal.category1,Terminal view commands,Terminal view commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f36eae,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.tm.terminal.TerminalContext,,,system)
+Binding(ALT+E,
+	ParameterizedCommand(Command(com.ti.ccstudio.debug.ui.command.restoreDebugState,Restore Debug State,
+		Restore debug state for the selected core(s),
+		Category(com.ti.ccstudio.debug.ui.commandCategory,Code Composer Studio Debug Commands,Set of commands for Code Composer Studio debug actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@df387e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:57:46.397
+!MESSAGE Unable to locate file: C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\RSLKSelfTest\Debug\..\RSLKSelfTest_UARTmain.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:57:46.756
+!MESSAGE Unable to locate file: C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\RSLKSelfTest\Debug\..\RSLKSelfTest_UARTmain.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-08-26 14:58:16.045
+!MESSAGE Unable to locate file: C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\RSLKSelfTest\Debug\..\RSLKSelfTest_UARTmain.c

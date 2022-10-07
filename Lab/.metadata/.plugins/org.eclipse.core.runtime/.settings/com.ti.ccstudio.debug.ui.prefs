@@ -1,0 +1,12 @@
+MODULES_MRU_PATH=D\:\\CE2007\\RSLK-MAX-SelfTest.out\#THREAD_IDS\#Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0
+MODULES_MRU_PATH.1=D\:\\CE2007\\Lab1ref_TExaS\\Debug\\Lab1ref_TExaS.out\#THREAD_IDS\#Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0
+MODULES_MRU_PATH.2=D\:\\CE2007\\Control\\Debug\\Control.out\#THREAD_IDS\#Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0
+MODULES_MRU_PATH.3=D\:\\CE2007\\Lab1ref_InputOutput\\Debug\\Lab1ref_InputOutput.out\#THREAD_IDS\#Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0
+MODULES_MRU_PATH.4=D\:\\CE2007\\Lab1_Assembly\\Debug\\Lab1_Assembly.out\#THREAD_IDS\#Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0
+MODULES_MRU_PATH.5=D\:\\CE2007\\Lab1_C_Programming\\Debug\\Lab1_C_Programming.out\#THREAD_IDS\#Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0
+MODULES_MRU_PATH.6=D\:\\CE2007\\Lab1ref_SineFunction\\Debug\\Lab1ref_SineFunction.out\#THREAD_IDS\#Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0
+MODULES_MRU_PATH.7=C\:\\CE2007\\CE2007Labs-Instructor-17072019\\CE2007\\RSLKSelfTest.out\#THREAD_IDS\#Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0
+MODULES_MRU_PATH.8=C\:\\temp\\CE2007\\RSLKSelfTest.out\#THREAD_IDS\#Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0
+eclipse.preferences.version=1
+symbolAutoCompleteHistory<seperator>org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser<seperator>Texas\ Instruments\ XDS110\ USB\ Debug\ Probe\\CORTEX_M4_0=0x20000000,0x22000000,0x20008000,0x40e,0x408,0x40e0e,PC+0x2a8,0x20000030,PC,PC+0x2e4
+useAnnotationsPrefPage=true
