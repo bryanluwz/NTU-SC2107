@@ -1,6 +1,6 @@
 ;******************************************************************************
 ;* TI ARM C/C++ Codegen                                        PC v16.9.6.LTS *
-;* Date/Time created: Fri Sep 23 12:32:40 2022                                *
+;* Date/Time created: Wed Nov 02 14:36:44 2022                                *
 ;******************************************************************************
 	.compiler_opts --abi=eabi --arm_vmrs_si_workaround=off --code_state=16 --diag_wrap=off --embedded_constants=on --endian=little --float_support=FPv4SPD16 --hll_source=on --object_format=elf --silicon_version=7M4 --symdebug:dwarf --symdebug:dwarf_version=3 --unaligned_access=on 
 	.thumb
@@ -9,7 +9,7 @@ $C$DW$CU	.dwtag  DW_TAG_compile_unit
 	.dwattr $C$DW$CU, DW_AT_name("../startup_msp432p401r_ccs.c")
 	.dwattr $C$DW$CU, DW_AT_producer("TI TI ARM C/C++ Codegen PC v16.9.6.LTS Copyright (c) 1996-2017 Texas Instruments Incorporated")
 	.dwattr $C$DW$CU, DW_AT_TI_version(0x01)
-	.dwattr $C$DW$CU, DW_AT_comp_dir("D:\CE2007\Lab1_C_Programming\Debug")
+	.dwattr $C$DW$CU, DW_AT_comp_dir("D:\Courses\CE2007\Lab1_C_Programming\Debug")
 
 ;*****************************************************************************
 ;* FUNCTION SYNONYMS                                                         *
@@ -209,7 +209,7 @@ $C$DW$3	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$3, DW_AT_decl_line(0x70)
 	.dwattr $C$DW$3, DW_AT_decl_column(0x0f)
 
-;	C:\ti\ccsv7\tools\compiler\ti-cgt-arm_16.9.6.LTS\bin\armacpia.exe -@C:\\Users\\BLU004\\AppData\\Local\\Temp\\{406AC2DD-FB40-48B7-AE14-A389C5358B44} 
+;	C:\ti\ccsv7\tools\compiler\ti-cgt-arm_16.9.6.LTS\bin\armacpia.exe -@C:\\Users\\blu004\\AppData\\Local\\Temp\\{6ABEC8F8-5AE2-45CE-8D05-2F13F7AB3CFF} 
 	.sect	".text"
 	.clink
 	.thumbfunc Reset_Handler

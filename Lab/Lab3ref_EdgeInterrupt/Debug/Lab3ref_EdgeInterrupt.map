@@ -1,7 +1,7 @@
 ******************************************************************************
                   TI ARM Linker PC v16.9.6                     
 ******************************************************************************
->> Linked Fri Sep 23 15:00:39 2022
+>> Linked Tue Nov 01 13:13:41 2022
 
 OUTPUT FILE NAME:   <Lab3ref_EdgeInterrupt.out>
 ENTRY POINT SYMBOL: "_c_int00"  address: 00000fd1

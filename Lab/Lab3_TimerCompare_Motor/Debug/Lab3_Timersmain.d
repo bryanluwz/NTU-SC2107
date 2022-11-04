@@ -19,6 +19,10 @@ Lab3_Timersmain.obj: ../../inc/Motor.h
 Lab3_Timersmain.obj: ../../inc/TimerA1.h
 Lab3_Timersmain.obj: ../../inc/TExaS.h
 Lab3_Timersmain.obj: ../../inc/Reflectance.h
+Lab3_Timersmain.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/include/time.h
+Lab3_Timersmain.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/include/linkage.h
+Lab3_Timersmain.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/include/abi_prefix.h
+Lab3_Timersmain.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/include/stdlib.h
 
 ../Lab3_Timersmain.c: 
 C:/ti/ccsv7/ccs_base/arm/include/msp.h: 
@@ -39,3 +43,7 @@ C:/ti/ccsv7/ccs_base/arm/include/system_msp432p401r.h:
 ../../inc/TimerA1.h: 
 ../../inc/TExaS.h: 
 ../../inc/Reflectance.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/include/time.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/include/linkage.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/include/abi_prefix.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/include/stdlib.h: 

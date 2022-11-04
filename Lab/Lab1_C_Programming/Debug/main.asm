@@ -1,6 +1,6 @@
 ;******************************************************************************
 ;* TI ARM C/C++ Codegen                                        PC v16.9.6.LTS *
-;* Date/Time created: Fri Sep 23 14:58:05 2022                                *
+;* Date/Time created: Wed Nov 02 14:36:45 2022                                *
 ;******************************************************************************
 	.compiler_opts --abi=eabi --arm_vmrs_si_workaround=off --code_state=16 --diag_wrap=off --embedded_constants=on --endian=little --float_support=FPv4SPD16 --hll_source=on --object_format=elf --silicon_version=7M4 --symdebug:dwarf --symdebug:dwarf_version=3 --unaligned_access=on 
 	.thumb
@@ -9,7 +9,7 @@ $C$DW$CU	.dwtag  DW_TAG_compile_unit
 	.dwattr $C$DW$CU, DW_AT_name("../main.c")
 	.dwattr $C$DW$CU, DW_AT_producer("TI TI ARM C/C++ Codegen PC v16.9.6.LTS Copyright (c) 1996-2017 Texas Instruments Incorporated")
 	.dwattr $C$DW$CU, DW_AT_TI_version(0x01)
-	.dwattr $C$DW$CU, DW_AT_comp_dir("D:\CE2007\Lab1_C_Programming\Debug")
+	.dwattr $C$DW$CU, DW_AT_comp_dir("D:\Courses\CE2007\Lab1_C_Programming\Debug")
 
 $C$DW$1	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$1, DW_AT_name("Clock_Delay1ms")
@@ -45,7 +45,7 @@ $C$DW$3	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$3, DW_AT_decl_line(0xd0)
 	.dwattr $C$DW$3, DW_AT_decl_column(0x12)
 
-;	C:\ti\ccsv7\tools\compiler\ti-cgt-arm_16.9.6.LTS\bin\armopt.exe C:\\Users\\BLU004\\AppData\\Local\\Temp\\{9C092D30-A835-44B0-A4E0-7AFCB7208269} C:\\Users\\BLU004\\AppData\\Local\\Temp\\{F20F4826-CE5A-4A9C-A9AB-C84245310885} 
+;	C:\ti\ccsv7\tools\compiler\ti-cgt-arm_16.9.6.LTS\bin\armopt.exe C:\\Users\\blu004\\AppData\\Local\\Temp\\{617A6462-CD5C-4B4F-859A-722FD84E1E2E} C:\\Users\\blu004\\AppData\\Local\\Temp\\{36230AEA-F7C2-4A86-8111-AEDE40924554} 
 	.sect	".text"
 	.clink
 	.thumbfunc Port1_Init

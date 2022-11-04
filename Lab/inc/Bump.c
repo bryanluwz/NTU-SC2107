@@ -60,7 +60,17 @@ void Bump_Init(void){
     // write this as part of Lab 3
     // Initialise GPIO related registers.
     // Registers: SEL0, SEL1, DIR, REN, OUT.
+    P4->SEL0 &= ~0b11101101;
+    P4->SEL1 &= ~0b11101101;
+    P4->DIR &= ~0b11101101;
+    P4->REN |= 0b11101101;
+    P4->OUT |= 0b11101101;
 
+    P4->IE |= 0b11101101;
+    P4->IFG &= ~0b11101101;
+    P4->IES |= 0b11101101;
+    NVIC->ISER[1] = 0x40;  // interrupt 38 in NVIC
+    NVIC->IP[9] = (NVIC->IP[9]&0xFF00FFFF) | 0x00400000;
 }
 // Read current state of 6 switches
 // Returns a 6-bit positive logic result (0 to 63)
@@ -70,13 +80,17 @@ void Bump_Init(void){
 // bit 2 Bump2
 // bit 1 Bump1
 // bit 0 Bump0
+// 0b11101101
+
 uint8_t Bump_Read(void){
     // write this as part of Lab 3
     // Pack the 6 valid bits in the value read from the input data
     // register to occupy 6 lower order bits of the result variable.
     uint8_t result;
 
+    result = P4->IN;
 
-    return (result);
+    result = (result & 0x1) | ((result & 0xC) >> 1) | ((result & 0xE0) >> 2);
+
+    return result;
 }
-

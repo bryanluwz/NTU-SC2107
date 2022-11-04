@@ -72,11 +72,17 @@ void SysTick_Handler(void){ // every 1ms
     }
     else if (count==1) {
         reflectance_data =  Reflectance_End();
-        bump_data = Bump_Read();
+//        bump_data = Bump_Read();
     }
     count++;
     if(count==10)count=0;
 }
+
+void PORT4_IRQHandler(void) {
+    bump_data = Bump_Read();
+    P4->IFG &= ~0b11101101;
+}
+
 
 int main(void){
 

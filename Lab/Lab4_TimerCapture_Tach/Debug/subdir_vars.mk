@@ -9,17 +9,17 @@ CMD_SRCS += \
 ../msp432p401r.cmd 
 
 C_SRCS += \
-D:/CE2007/inc/Bump.c \
-D:/CE2007/inc/Clock.c \
-D:/CE2007/inc/CortexM.c \
+D:/Courses/CE2007/inc/Bump.c \
+D:/Courses/CE2007/inc/Clock.c \
+D:/Courses/CE2007/inc/CortexM.c \
 ../Lab4_Tachmain.c \
-D:/CE2007/inc/LaunchPad.c \
-D:/CE2007/inc/Motor.c \
-D:/CE2007/inc/PWM.c \
-D:/CE2007/inc/SysTick.c \
-D:/CE2007/inc/TA3InputCapture.c \
-D:/CE2007/inc/TExaS.c \
-D:/CE2007/inc/UART0.c \
+D:/Courses/CE2007/inc/LaunchPad.c \
+D:/Courses/CE2007/inc/Motor.c \
+D:/Courses/CE2007/inc/PWM.c \
+D:/Courses/CE2007/inc/SysTick.c \
+D:/Courses/CE2007/inc/TA3InputCapture.c \
+D:/Courses/CE2007/inc/TExaS.c \
+D:/Courses/CE2007/inc/UART0.c \
 ../startup_msp432p401r_ccs.c \
 ../system_msp432p401r.c 
 
@@ -84,17 +84,17 @@ C_DEPS__QUOTED += \
 "system_msp432p401r.d" 
 
 C_SRCS__QUOTED += \
-"D:/CE2007/inc/Bump.c" \
-"D:/CE2007/inc/Clock.c" \
-"D:/CE2007/inc/CortexM.c" \
+"D:/Courses/CE2007/inc/Bump.c" \
+"D:/Courses/CE2007/inc/Clock.c" \
+"D:/Courses/CE2007/inc/CortexM.c" \
 "../Lab4_Tachmain.c" \
-"D:/CE2007/inc/LaunchPad.c" \
-"D:/CE2007/inc/Motor.c" \
-"D:/CE2007/inc/PWM.c" \
-"D:/CE2007/inc/SysTick.c" \
-"D:/CE2007/inc/TA3InputCapture.c" \
-"D:/CE2007/inc/TExaS.c" \
-"D:/CE2007/inc/UART0.c" \
+"D:/Courses/CE2007/inc/LaunchPad.c" \
+"D:/Courses/CE2007/inc/Motor.c" \
+"D:/Courses/CE2007/inc/PWM.c" \
+"D:/Courses/CE2007/inc/SysTick.c" \
+"D:/Courses/CE2007/inc/TA3InputCapture.c" \
+"D:/Courses/CE2007/inc/TExaS.c" \
+"D:/Courses/CE2007/inc/UART0.c" \
 "../startup_msp432p401r_ccs.c" \
 "../system_msp432p401r.c" 
 

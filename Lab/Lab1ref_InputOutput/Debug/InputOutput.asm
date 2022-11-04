@@ -1,6 +1,6 @@
 ;******************************************************************************
 ;* TI ARM C/C++ Codegen                                        PC v16.9.6.LTS *
-;* Date/Time created: Fri Sep 23 13:10:06 2022                                *
+;* Date/Time created: Wed Nov 02 14:36:48 2022                                *
 ;******************************************************************************
 	.compiler_opts --abi=eabi --arm_vmrs_si_workaround=off --code_state=16 --diag_wrap=off --embedded_constants=on --endian=little --float_support=FPv4SPD16 --hll_source=on --object_format=elf --silicon_version=7M4 --symdebug:dwarf --symdebug:dwarf_version=3 --unaligned_access=on 
 	.thumb
@@ -9,8 +9,8 @@ $C$DW$CU	.dwtag  DW_TAG_compile_unit
 	.dwattr $C$DW$CU, DW_AT_name("../InputOutput.c")
 	.dwattr $C$DW$CU, DW_AT_producer("TI TI ARM C/C++ Codegen PC v16.9.6.LTS Copyright (c) 1996-2017 Texas Instruments Incorporated")
 	.dwattr $C$DW$CU, DW_AT_TI_version(0x01)
-	.dwattr $C$DW$CU, DW_AT_comp_dir("D:\CE2007\Lab1ref_InputOutput\Debug")
-;	C:\ti\ccsv7\tools\compiler\ti-cgt-arm_16.9.6.LTS\bin\armacpia.exe -@C:\\Users\\BLU004\\AppData\\Local\\Temp\\{813C16B6-ADA0-4EF8-88DD-EA996D48E03F} 
+	.dwattr $C$DW$CU, DW_AT_comp_dir("D:\Courses\CE2007\Lab1ref_InputOutput\Debug")
+;	C:\ti\ccsv7\tools\compiler\ti-cgt-arm_16.9.6.LTS\bin\armacpia.exe -@C:\\Users\\blu004\\AppData\\Local\\Temp\\{CD4EA891-4F93-4FE0-B1A5-BB50D3B5730C} 
 	.sect	".text"
 	.clink
 	.thumbfunc Port1_Init

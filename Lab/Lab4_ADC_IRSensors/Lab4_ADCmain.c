@@ -100,8 +100,8 @@ int main(void){
   UART0_OutString("GP2Y0A21YK0F test\nValvano Oct 2017\nConnect analog signals to P9.0,P4.1,P9.1\n");
   EnableInterrupts();
   while(1){
-    for(n=0; n<2000; n++){
-      while(ADCflag == 0){};
+    for(n=0; n<100; n++){
+      while(ADCflag == 0) {};
       ADCflag = 0; // show every 2000th point
     }
     UART0_OutUDec5(LeftConvert(nl));UART0_OutString(" mm,");

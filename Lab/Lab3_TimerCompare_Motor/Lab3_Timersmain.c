@@ -66,6 +66,8 @@ policies, either expressed or implied, of the FreeBSD Project.
 #include "..\inc\TimerA1.h"
 #include "..\inc\TExaS.h"
 #include "..\inc\Reflectance.h"
+#include <time.h>
+#include <stdlib.h>
 
 
 volatile uint8_t reflectance_data, bump_data;
@@ -74,8 +76,8 @@ volatile uint8_t reflectance_data, bump_data;
 void TimedPause(uint32_t time){
   Clock_Delay1ms(time);          // run for a while and stop
   Motor_Stop();
-  while(LaunchPad_Input()==0);  // wait for touch
-  while(LaunchPad_Input());     // wait for release
+//  while(LaunchPad_Input()==0);  // wait for touch
+//  while(LaunchPad_Input());     // wait for release
 }
 
 // Test of Periodic interrupt
@@ -119,6 +121,9 @@ int main(void){
     TimerA1_Init(&Task,50000);  // 10 Hz
     EnableInterrupts();
 
+    srand(time(NULL));
+    int i = 1000;
+
     TimedPause(1000);
     while(1){
       Motor_Forward(3000,3000);  // your function
@@ -129,6 +134,15 @@ int main(void){
       TimedPause(1000);
       Motor_Right(3000,3000);    // your function
       TimedPause(1000);
+        break;
     }
 }
+
+
+void PORT4_IRQHandler(void) {
+    bump_data = Bump_Read();
+    P4->IFG &= ~0b11101101;
+    Motor_Stop();
+}
+
 

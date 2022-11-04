@@ -91,4 +91,4 @@ void BumpInt_Init(void(*task)(uint8_t));
  * @brief  Read current state of 6 switches
  */
 uint8_t BumpInt_Read(void);
-
+void PORT4_IRQHandler(void);

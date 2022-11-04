@@ -1,6 +1,6 @@
 ;******************************************************************************
 ;* TI ARM C/C++ Codegen                                        PC v16.9.6.LTS *
-;* Date/Time created: Fri Sep 23 12:32:40 2022                                *
+;* Date/Time created: Wed Nov 02 14:36:44 2022                                *
 ;******************************************************************************
 	.compiler_opts --abi=eabi --arm_vmrs_si_workaround=off --code_state=16 --diag_wrap=off --embedded_constants=on --endian=little --float_support=FPv4SPD16 --hll_source=on --object_format=elf --silicon_version=7M4 --symdebug:dwarf --symdebug:dwarf_version=3 --unaligned_access=on 
 	.thumb
@@ -9,7 +9,7 @@ $C$DW$CU	.dwtag  DW_TAG_compile_unit
 	.dwattr $C$DW$CU, DW_AT_name("../system_msp432p401r.c")
 	.dwattr $C$DW$CU, DW_AT_producer("TI TI ARM C/C++ Codegen PC v16.9.6.LTS Copyright (c) 1996-2017 Texas Instruments Incorporated")
 	.dwattr $C$DW$CU, DW_AT_TI_version(0x01)
-	.dwattr $C$DW$CU, DW_AT_comp_dir("D:\CE2007\Lab1_C_Programming\Debug")
+	.dwattr $C$DW$CU, DW_AT_comp_dir("D:\Courses\CE2007\Lab1_C_Programming\Debug")
 	.global	SystemCoreClock
 	.data
 	.align	4
@@ -27,7 +27,7 @@ $C$DW$1	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$1, DW_AT_decl_line(0x5a)
 	.dwattr $C$DW$1, DW_AT_decl_column(0x0a)
 
-;	C:\ti\ccsv7\tools\compiler\ti-cgt-arm_16.9.6.LTS\bin\armacpia.exe -@C:\\Users\\BLU004\\AppData\\Local\\Temp\\{E78EE35A-8ED1-45BB-BE17-997E2AA64611} 
+;	C:\ti\ccsv7\tools\compiler\ti-cgt-arm_16.9.6.LTS\bin\armacpia.exe -@C:\\Users\\blu004\\AppData\\Local\\Temp\\{8346A3A7-E391-468D-8717-9503231A46C0} 
 	.sect	".text"
 	.clink
 	.thumbfunc SystemCoreClockUpdate

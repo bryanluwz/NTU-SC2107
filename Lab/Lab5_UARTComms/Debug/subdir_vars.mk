@@ -9,23 +9,23 @@ CMD_SRCS += \
 ../msp432p401r.cmd 
 
 C_SRCS += \
-D:/CE2007/inc/ADC14.c \
-D:/CE2007/inc/BumpInt.c \
-D:/CE2007/inc/Clock.c \
-D:/CE2007/inc/CortexM.c \
-D:/CE2007/inc/EUSCIA0.c \
-D:/CE2007/inc/FIFO0.c \
-D:/CE2007/inc/IRDistance.c \
-D:/CE2007/inc/LPF.c \
+D:/Courses/CE2007/inc/ADC14.c \
+D:/Courses/CE2007/inc/BumpInt.c \
+D:/Courses/CE2007/inc/Clock.c \
+D:/Courses/CE2007/inc/CortexM.c \
+D:/Courses/CE2007/inc/EUSCIA0.c \
+D:/Courses/CE2007/inc/FIFO0.c \
+D:/Courses/CE2007/inc/IRDistance.c \
+D:/Courses/CE2007/inc/LPF.c \
 ../Lab5_UARTmain.c \
-D:/CE2007/inc/LaunchPad.c \
-D:/CE2007/inc/Motor.c \
-D:/CE2007/inc/PWM.c \
-D:/CE2007/inc/Reflectance.c \
-D:/CE2007/inc/SysTickInts.c \
-D:/CE2007/inc/TA3InputCapture.c \
-D:/CE2007/inc/TimerA1.c \
-D:/CE2007/inc/UART0.c \
+D:/Courses/CE2007/inc/LaunchPad.c \
+D:/Courses/CE2007/inc/Motor.c \
+D:/Courses/CE2007/inc/PWM.c \
+D:/Courses/CE2007/inc/Reflectance.c \
+D:/Courses/CE2007/inc/SysTickInts.c \
+D:/Courses/CE2007/inc/TA3InputCapture.c \
+D:/Courses/CE2007/inc/TimerA1.c \
+D:/Courses/CE2007/inc/UART0.c \
 ../startup_msp432p401r_ccs.c \
 ../system_msp432p401r.c 
 
@@ -114,23 +114,23 @@ C_DEPS__QUOTED += \
 "system_msp432p401r.d" 
 
 C_SRCS__QUOTED += \
-"D:/CE2007/inc/ADC14.c" \
-"D:/CE2007/inc/BumpInt.c" \
-"D:/CE2007/inc/Clock.c" \
-"D:/CE2007/inc/CortexM.c" \
-"D:/CE2007/inc/EUSCIA0.c" \
-"D:/CE2007/inc/FIFO0.c" \
-"D:/CE2007/inc/IRDistance.c" \
-"D:/CE2007/inc/LPF.c" \
+"D:/Courses/CE2007/inc/ADC14.c" \
+"D:/Courses/CE2007/inc/BumpInt.c" \
+"D:/Courses/CE2007/inc/Clock.c" \
+"D:/Courses/CE2007/inc/CortexM.c" \
+"D:/Courses/CE2007/inc/EUSCIA0.c" \
+"D:/Courses/CE2007/inc/FIFO0.c" \
+"D:/Courses/CE2007/inc/IRDistance.c" \
+"D:/Courses/CE2007/inc/LPF.c" \
 "../Lab5_UARTmain.c" \
-"D:/CE2007/inc/LaunchPad.c" \
-"D:/CE2007/inc/Motor.c" \
-"D:/CE2007/inc/PWM.c" \
-"D:/CE2007/inc/Reflectance.c" \
-"D:/CE2007/inc/SysTickInts.c" \
-"D:/CE2007/inc/TA3InputCapture.c" \
-"D:/CE2007/inc/TimerA1.c" \
-"D:/CE2007/inc/UART0.c" \
+"D:/Courses/CE2007/inc/LaunchPad.c" \
+"D:/Courses/CE2007/inc/Motor.c" \
+"D:/Courses/CE2007/inc/PWM.c" \
+"D:/Courses/CE2007/inc/Reflectance.c" \
+"D:/Courses/CE2007/inc/SysTickInts.c" \
+"D:/Courses/CE2007/inc/TA3InputCapture.c" \
+"D:/Courses/CE2007/inc/TimerA1.c" \
+"D:/Courses/CE2007/inc/UART0.c" \
 "../startup_msp432p401r_ccs.c" \
 "../system_msp432p401r.c" 
 

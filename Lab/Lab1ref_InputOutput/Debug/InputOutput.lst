@@ -1,11 +1,11 @@
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE    1
 
        1                    ;******************************************************************************
        2                    ;* TI ARM C/C++ Codegen                                        PC v16.9.6.LTS *
-       3                    ;* Date/Time created: Fri Sep 23 13:10:06 2022                                *
+       3                    ;* Date/Time created: Wed Nov 02 14:36:48 2022                                *
        4                    ;******************************************************************************
        5                            .compiler_opts --abi=eabi --arm_vmrs_si_workaround=off --code_state=16 --diag_wrap=off --embed
        6 00000000                   .thumb
@@ -14,8 +14,8 @@ InputOutput.asm                                                      PAGE    1
        9                            .dwattr $C$DW$CU, DW_AT_name("../InputOutput.c")
       10                            .dwattr $C$DW$CU, DW_AT_producer("TI TI ARM C/C++ Codegen PC v16.9.6.LTS Copyright (c) 1996-20
       11                            .dwattr $C$DW$CU, DW_AT_TI_version(0x01)
-      12                            .dwattr $C$DW$CU, DW_AT_comp_dir("D:\CE2007\Lab1ref_InputOutput\Debug")
-      13                    ;       C:\ti\ccsv7\tools\compiler\ti-cgt-arm_16.9.6.LTS\bin\armacpia.exe -@C:\\Users\\BLU004\\AppData
+      12                            .dwattr $C$DW$CU, DW_AT_comp_dir("D:\Courses\CE2007\Lab1ref_InputOutput\Debug")
+      13                    ;       C:\ti\ccsv7\tools\compiler\ti-cgt-arm_16.9.6.LTS\bin\armacpia.exe -@C:\\Users\\blu004\\AppData
       14 00000000                   .sect   ".text"
       15                            .clink
       16                            .thumbfunc Port1_Init
@@ -58,7 +58,7 @@ InputOutput.asm                                                      PAGE    1
       53 00000008 2000              MOVS      A1, #0                ; [DPU_3_PIPE] |78|  ; [ORIG 16-BIT INS]
       54 0000000a 7008              STRB      A1, [A2, #0]          ; [DPU_3_PIPE] |78|  ; [ORIG 16-BIT INS]
       55                            .dwpsn  file "../InputOutput.c",line 79,column 3,is_stmt,isa 1
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE    2
@@ -118,7 +118,7 @@ InputOutput.asm                                                      PAGE    2
      108                    ;*   Regs Used         : A1,LR                                               *
      109                    ;*   Local Frame Size  : 0 Args + 0 Auto + 0 Save = 0 byte                   *
      110                    ;*****************************************************************************
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE    3
@@ -178,7 +178,7 @@ InputOutput.asm                                                      PAGE    3
      163                            .dwcfi  cfa_offset, 0
      164                            .dwpsn  file "../InputOutput.c",line 91,column 3,is_stmt,isa 1
      165 0000002a 4933              LDR       A2, $C$CON7           ; [DPU_3_PIPE] |91|  ; [ORIG 16-BIT INS]
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE    4
@@ -238,7 +238,7 @@ InputOutput.asm                                                      PAGE    4
      218                            .dwfde $C$DW$CIE, Port1_Output
      219                    $C$DW$8 .dwtag  DW_TAG_formal_parameter
      220                            .dwattr $C$DW$8, DW_AT_name("data")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE    5
@@ -298,7 +298,7 @@ InputOutput.asm                                                      PAGE    5
      273                    
      274                    $C$DW$11        .dwtag  DW_TAG_subprogram
      275                            .dwattr $C$DW$11, DW_AT_name("Port2_Output")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE    6
@@ -358,7 +358,7 @@ InputOutput.asm                                                      PAGE    6
      328                            ; BRANCH OCCURS                  ; [] 
      329                            .dwattr $C$DW$11, DW_AT_TI_end_file("../InputOutput.c")
      330                            .dwattr $C$DW$11, DW_AT_TI_end_line(0x6a)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE    7
@@ -418,7 +418,7 @@ InputOutput.asm                                                      PAGE    7
      383                            .dwattr $C$DW$17, DW_AT_TI_call
      384                    
      385 0000007e FFFEF7FF!         BL        Port1_Init            ; [DPU_3_PIPE] |110|  ; [KEEP 32-BIT INS]
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE    8
@@ -478,7 +478,7 @@ InputOutput.asm                                                      PAGE    8
      438                            .dwpsn  file "../InputOutput.c",line 119,column 9,is_stmt,isa 1
      439 0000009c E7F3              B         ||$C$L1||             ; [DPU_3_PIPE] |119|  ; [ORIG 16-BIT INS]
      440                            ; BRANCH OCCURS {||$C$L1||}      ; [] |119| 
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE    9
@@ -538,7 +538,7 @@ InputOutput.asm                                                      PAGE    9
      493                            .dwattr $C$DW$26, DW_AT_name("Port2_Output")
      494                            .dwattr $C$DW$26, DW_AT_TI_call
      495                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   10
@@ -598,7 +598,7 @@ InputOutput.asm                                                      PAGE   10
      547 000000e2 4C0C4000  ||$C$CON2||:    .bits   1073761292,32
          000000e6 00004000 
      548                            .align  4
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   11
@@ -658,7 +658,7 @@ InputOutput.asm                                                      PAGE   11
      592                            .dwattr $C$DW$28, DW_AT_name("IN")
      593                            .dwattr $C$DW$28, DW_AT_TI_symbol_name("IN")
      594                            .dwattr $C$DW$28, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   12
@@ -718,7 +718,7 @@ InputOutput.asm                                                      PAGE   12
      647                            .dwattr $C$DW$33, DW_AT_decl_line(0x28d)
      648                            .dwattr $C$DW$33, DW_AT_decl_column(0x0b)
      649                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   13
@@ -778,7 +778,7 @@ InputOutput.asm                                                      PAGE   13
      702                            .dwattr $C$DW$39, DW_AT_name("RESERVED5")
      703                            .dwattr $C$DW$39, DW_AT_TI_symbol_name("RESERVED5")
      704                            .dwattr $C$DW$39, DW_AT_data_member_location[DW_OP_plus_uconst 0xb]
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   14
@@ -838,7 +838,7 @@ InputOutput.asm                                                      PAGE   14
      757                            .dwattr $C$DW$44, DW_AT_decl_line(0x298)
      758                            .dwattr $C$DW$44, DW_AT_decl_column(0x10)
      759                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   15
@@ -898,7 +898,7 @@ InputOutput.asm                                                      PAGE   15
      812                            .dwattr $C$DW$50, DW_AT_name("IFG")
      813                            .dwattr $C$DW$50, DW_AT_TI_symbol_name("IFG")
      814                            .dwattr $C$DW$50, DW_AT_data_member_location[DW_OP_plus_uconst 0x1c]
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   16
@@ -958,7 +958,7 @@ InputOutput.asm                                                      PAGE   16
      867                            .dwattr $C$DW$54, DW_AT_type(*$C$DW$T$19)
      868                            .dwattr $C$DW$54, DW_AT_name("RESERVED1")
      869                            .dwattr $C$DW$54, DW_AT_TI_symbol_name("RESERVED1")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   17
@@ -1018,7 +1018,7 @@ InputOutput.asm                                                      PAGE   17
      922                            .dwattr $C$DW$59, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
      923                            .dwattr $C$DW$59, DW_AT_decl_line(0x2aa)
      924                            .dwattr $C$DW$59, DW_AT_decl_column(0x10)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   18
@@ -1078,7 +1078,7 @@ InputOutput.asm                                                      PAGE   18
      977                            .dwattr $C$DW$65, DW_AT_type(*$C$DW$T$21)
      978                            .dwattr $C$DW$65, DW_AT_name("SEL1")
      979                            .dwattr $C$DW$65, DW_AT_TI_symbol_name("SEL1")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   19
@@ -1138,7 +1138,7 @@ InputOutput.asm                                                      PAGE   19
     1032                            .dwattr $C$DW$70, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     1033                            .dwattr $C$DW$70, DW_AT_decl_line(0x2b5)
     1034                            .dwattr $C$DW$70, DW_AT_decl_column(0x0b)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   20
@@ -1198,7 +1198,7 @@ InputOutput.asm                                                      PAGE   20
     1087                            .dwattr $C$DW$T$174, DW_AT_decl_column(0x03)
     1088                    
     1089                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   21
@@ -1258,7 +1258,7 @@ InputOutput.asm                                                      PAGE   21
     1142                            .dwattr $C$DW$79, DW_AT_name("V")
     1143                            .dwattr $C$DW$79, DW_AT_TI_symbol_name("V")
     1144                            .dwattr $C$DW$79, DW_AT_bit_offset(0x03)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   22
@@ -1318,7 +1318,7 @@ InputOutput.asm                                                      PAGE   22
     1197                            .dwattr $C$DW$83, DW_AT_type(*$C$DW$T$28)
     1198                            .dwattr $C$DW$83, DW_AT_name("ISR")
     1199                            .dwattr $C$DW$83, DW_AT_TI_symbol_name("ISR")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   23
@@ -1378,7 +1378,7 @@ InputOutput.asm                                                      PAGE   23
     1252                    $C$DW$87        .dwtag  DW_TAG_member
     1253                            .dwattr $C$DW$87, DW_AT_type(*$C$DW$T$28)
     1254                            .dwattr $C$DW$87, DW_AT_name("ICI_IT_1")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   24
@@ -1438,7 +1438,7 @@ InputOutput.asm                                                      PAGE   24
     1307                            .dwattr $C$DW$91, DW_AT_accessibility(DW_ACCESS_public)
     1308                            .dwattr $C$DW$91, DW_AT_decl_file("C:/ti/ccsv7/ccs_base/arm/include/CMSIS/core_cm4.h")
     1309                            .dwattr $C$DW$91, DW_AT_decl_line(0x144)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   25
@@ -1498,7 +1498,7 @@ InputOutput.asm                                                      PAGE   25
     1362                            .dwattr $C$DW$96, DW_AT_name("N")
     1363                            .dwattr $C$DW$96, DW_AT_TI_symbol_name("N")
     1364                            .dwattr $C$DW$96, DW_AT_bit_offset(0x00)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   26
@@ -1558,7 +1558,7 @@ InputOutput.asm                                                      PAGE   26
     1417                            .dwattr $C$DW$100, DW_AT_type(*$C$DW$T$28)
     1418                            .dwattr $C$DW$100, DW_AT_name("_reserved0")
     1419                            .dwattr $C$DW$100, DW_AT_TI_symbol_name("_reserved0")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   27
@@ -1618,7 +1618,7 @@ InputOutput.asm                                                      PAGE   27
     1472                            .dwattr $C$DW$104, DW_AT_decl_file("C:/ti/ccsv7/ccs_base/arm/include/CMSIS/core_cm4.h")
     1473                            .dwattr $C$DW$104, DW_AT_decl_line(0x199)
     1474                            .dwattr $C$DW$104, DW_AT_decl_column(0x12)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   28
@@ -1678,7 +1678,7 @@ InputOutput.asm                                                      PAGE   28
     1527                            .dwattr $C$DW$110, DW_AT_type(*$C$DW$T$36)
     1528                            .dwattr $C$DW$110, DW_AT_name("RESERVED4")
     1529                            .dwattr $C$DW$110, DW_AT_TI_symbol_name("RESERVED4")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   29
@@ -1738,7 +1738,7 @@ InputOutput.asm                                                      PAGE   29
     1582                    $C$DW$114       .dwtag  DW_TAG_member
     1583                            .dwattr $C$DW$114, DW_AT_type(*$C$DW$T$40)
     1584                            .dwattr $C$DW$114, DW_AT_name("CPUID")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   30
@@ -1798,7 +1798,7 @@ InputOutput.asm                                                      PAGE   30
     1637                            .dwattr $C$DW$119, DW_AT_accessibility(DW_ACCESS_public)
     1638                            .dwattr $C$DW$119, DW_AT_decl_file("C:/ti/ccsv7/ccs_base/arm/include/CMSIS/core_cm4.h")
     1639                            .dwattr $C$DW$119, DW_AT_decl_line(0x1bd)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   31
@@ -1858,7 +1858,7 @@ InputOutput.asm                                                      PAGE   31
     1692                    $C$DW$125       .dwtag  DW_TAG_member
     1693                            .dwattr $C$DW$125, DW_AT_type(*$C$DW$T$33)
     1694                            .dwattr $C$DW$125, DW_AT_name("MMFAR")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   32
@@ -1918,7 +1918,7 @@ InputOutput.asm                                                      PAGE   32
     1747                            .dwattr $C$DW$130, DW_AT_accessibility(DW_ACCESS_public)
     1748                            .dwattr $C$DW$130, DW_AT_decl_file("C:/ti/ccsv7/ccs_base/arm/include/CMSIS/core_cm4.h")
     1749                            .dwattr $C$DW$130, DW_AT_decl_line(0x1c8)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   33
@@ -1978,7 +1978,7 @@ InputOutput.asm                                                      PAGE   33
     1802                            .dwattr $C$DW$T$177, DW_AT_decl_line(0x1cd)
     1803                            .dwattr $C$DW$T$177, DW_AT_decl_column(0x03)
     1804                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   34
@@ -2038,7 +2038,7 @@ InputOutput.asm                                                      PAGE   34
     1857                            .dwattr $C$DW$138, DW_AT_TI_symbol_name("CTRL")
     1858                            .dwattr $C$DW$138, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1859                            .dwattr $C$DW$138, DW_AT_accessibility(DW_ACCESS_public)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   35
@@ -2098,7 +2098,7 @@ InputOutput.asm                                                      PAGE   35
     1912                            .dwattr $C$DW$142, DW_AT_name("PORT")
     1913                            .dwattr $C$DW$142, DW_AT_TI_symbol_name("PORT")
     1914                            .dwattr $C$DW$142, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   36
@@ -2158,7 +2158,7 @@ InputOutput.asm                                                      PAGE   36
     1967                            .dwattr $C$DW$147, DW_AT_decl_line(0x335)
     1968                            .dwattr $C$DW$147, DW_AT_decl_column(0x12)
     1969                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   37
@@ -2218,7 +2218,7 @@ InputOutput.asm                                                      PAGE   37
     2022                            .dwattr $C$DW$153, DW_AT_name("RESERVED4")
     2023                            .dwattr $C$DW$153, DW_AT_TI_symbol_name("RESERVED4")
     2024                            .dwattr $C$DW$153, DW_AT_data_member_location[DW_OP_plus_uconst 0xf04]
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   38
@@ -2278,7 +2278,7 @@ InputOutput.asm                                                      PAGE   38
     2077                            .dwattr $C$DW$158, DW_AT_decl_line(0x340)
     2078                            .dwattr $C$DW$158, DW_AT_decl_column(0x12)
     2079                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   39
@@ -2338,7 +2338,7 @@ InputOutput.asm                                                      PAGE   39
     2132                            .dwattr $C$DW$164, DW_AT_name("PID3")
     2133                            .dwattr $C$DW$164, DW_AT_TI_symbol_name("PID3")
     2134                            .dwattr $C$DW$164, DW_AT_data_member_location[DW_OP_plus_uconst 0xfec]
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   40
@@ -2398,7 +2398,7 @@ InputOutput.asm                                                      PAGE   40
     2187                            .dwattr $C$DW$T$180, DW_AT_type(*$C$DW$T$57)
     2188                            .dwattr $C$DW$T$180, DW_AT_language(DW_LANG_C)
     2189                            .dwattr $C$DW$T$180, DW_AT_decl_file("C:/ti/ccsv7/ccs_base/arm/include/CMSIS/core_cm4.h")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   41
@@ -2458,7 +2458,7 @@ InputOutput.asm                                                      PAGE   41
     2242                            .dwattr $C$DW$173, DW_AT_decl_file("C:/ti/ccsv7/ccs_base/arm/include/CMSIS/core_cm4.h")
     2243                            .dwattr $C$DW$173, DW_AT_decl_line(0x396)
     2244                            .dwattr $C$DW$173, DW_AT_decl_column(0x12)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   42
@@ -2518,7 +2518,7 @@ InputOutput.asm                                                      PAGE   42
     2297                            .dwattr $C$DW$179, DW_AT_type(*$C$DW$T$33)
     2298                            .dwattr $C$DW$179, DW_AT_name("FUNCTION0")
     2299                            .dwattr $C$DW$179, DW_AT_TI_symbol_name("FUNCTION0")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   43
@@ -2578,7 +2578,7 @@ InputOutput.asm                                                      PAGE   43
     2352                            .dwattr $C$DW$184, DW_AT_decl_file("C:/ti/ccsv7/ccs_base/arm/include/CMSIS/core_cm4.h")
     2353                            .dwattr $C$DW$184, DW_AT_decl_line(0x3a1)
     2354                            .dwattr $C$DW$184, DW_AT_decl_column(0x12)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   44
@@ -2638,7 +2638,7 @@ InputOutput.asm                                                      PAGE   44
     2407                            .dwattr $C$DW$190, DW_AT_type(*$C$DW$T$33)
     2408                            .dwattr $C$DW$190, DW_AT_name("MASK3")
     2409                            .dwattr $C$DW$190, DW_AT_TI_symbol_name("MASK3")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   45
@@ -2698,7 +2698,7 @@ InputOutput.asm                                                      PAGE   45
     2462                    $C$DW$194       .dwtag  DW_TAG_member
     2463                            .dwattr $C$DW$194, DW_AT_type(*$C$DW$T$59)
     2464                            .dwattr $C$DW$194, DW_AT_name("RESERVED0")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   46
@@ -2758,7 +2758,7 @@ InputOutput.asm                                                      PAGE   46
     2517                            .dwattr $C$DW$199, DW_AT_accessibility(DW_ACCESS_public)
     2518                            .dwattr $C$DW$199, DW_AT_decl_file("C:/ti/ccsv7/ccs_base/arm/include/CMSIS/core_cm4.h")
     2519                            .dwattr $C$DW$199, DW_AT_decl_line(0x42c)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   47
@@ -2818,7 +2818,7 @@ InputOutput.asm                                                      PAGE   47
     2572                    $C$DW$205       .dwtag  DW_TAG_member
     2573                            .dwattr $C$DW$205, DW_AT_type(*$C$DW$T$40)
     2574                            .dwattr $C$DW$205, DW_AT_name("ITATBCTR2")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   48
@@ -2878,7 +2878,7 @@ InputOutput.asm                                                      PAGE   48
     2627                            .dwattr $C$DW$210, DW_AT_accessibility(DW_ACCESS_public)
     2628                            .dwattr $C$DW$210, DW_AT_decl_file("C:/ti/ccsv7/ccs_base/arm/include/CMSIS/core_cm4.h")
     2629                            .dwattr $C$DW$210, DW_AT_decl_line(0x437)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   49
@@ -2938,7 +2938,7 @@ InputOutput.asm                                                      PAGE   49
     2682                            .dwattr $C$DW$T$65, DW_AT_decl_file("C:/ti/ccsv7/ccs_base/arm/include/CMSIS/core_cm4.h")
     2683                            .dwattr $C$DW$T$65, DW_AT_decl_line(0x424)
     2684                            .dwattr $C$DW$T$65, DW_AT_decl_column(0x01)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   50
@@ -2998,7 +2998,7 @@ InputOutput.asm                                                      PAGE   50
     2737                    
     2738                    $C$DW$220       .dwtag  DW_TAG_member
     2739                            .dwattr $C$DW$220, DW_AT_type(*$C$DW$T$33)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   51
@@ -3058,7 +3058,7 @@ InputOutput.asm                                                      PAGE   51
     2792                            .dwattr $C$DW$225, DW_AT_data_member_location[DW_OP_plus_uconst 0x24]
     2793                            .dwattr $C$DW$225, DW_AT_accessibility(DW_ACCESS_public)
     2794                            .dwattr $C$DW$225, DW_AT_decl_file("C:/ti/ccsv7/ccs_base/arm/include/CMSIS/core_cm4.h")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   52
@@ -3118,7 +3118,7 @@ InputOutput.asm                                                      PAGE   52
     2847                            .dwattr $C$DW$229, DW_AT_TI_symbol_name("FPCAR")
     2848                            .dwattr $C$DW$229, DW_AT_data_member_location[DW_OP_plus_uconst 0x8]
     2849                            .dwattr $C$DW$229, DW_AT_accessibility(DW_ACCESS_public)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   53
@@ -3178,7 +3178,7 @@ InputOutput.asm                                                      PAGE   53
     2902                            .dwattr $C$DW$233, DW_AT_name("DHCSR")
     2903                            .dwattr $C$DW$233, DW_AT_TI_symbol_name("DHCSR")
     2904                            .dwattr $C$DW$233, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   54
@@ -3238,7 +3238,7 @@ InputOutput.asm                                                      PAGE   54
     2957                            .dwattr $C$DW$237, DW_AT_type(*$C$DW$T$33)
     2958                            .dwattr $C$DW$237, DW_AT_name("CTL0")
     2959                            .dwattr $C$DW$237, DW_AT_TI_symbol_name("CTL0")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   55
@@ -3298,7 +3298,7 @@ InputOutput.asm                                                      PAGE   55
     3012                            .dwattr $C$DW$242, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     3013                            .dwattr $C$DW$242, DW_AT_decl_line(0x172)
     3014                            .dwattr $C$DW$242, DW_AT_decl_column(0x11)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   56
@@ -3358,7 +3358,7 @@ InputOutput.asm                                                      PAGE   56
     3067                            .dwattr $C$DW$248, DW_AT_type(*$C$DW$T$40)
     3068                            .dwattr $C$DW$248, DW_AT_name("IFGR0")
     3069                            .dwattr $C$DW$248, DW_AT_TI_symbol_name("IFGR0")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   57
@@ -3418,7 +3418,7 @@ InputOutput.asm                                                      PAGE   57
     3122                            .dwattr $C$DW$T$186, DW_AT_name("ADC14_Type")
     3123                            .dwattr $C$DW$T$186, DW_AT_type(*$C$DW$T$71)
     3124                            .dwattr $C$DW$T$186, DW_AT_language(DW_LANG_C)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   58
@@ -3478,7 +3478,7 @@ InputOutput.asm                                                      PAGE   58
     3177                            .dwattr $C$DW$257, DW_AT_accessibility(DW_ACCESS_public)
     3178                            .dwattr $C$DW$257, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     3179                            .dwattr $C$DW$257, DW_AT_decl_line(0x18d)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   59
@@ -3538,7 +3538,7 @@ InputOutput.asm                                                      PAGE   59
     3232                            .dwattr $C$DW$261, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3233                            .dwattr $C$DW$261, DW_AT_accessibility(DW_ACCESS_public)
     3234                            .dwattr $C$DW$261, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   60
@@ -3598,7 +3598,7 @@ InputOutput.asm                                                      PAGE   60
     3287                            .dwattr $C$DW$265, DW_AT_TI_symbol_name("CTL2")
     3288                            .dwattr $C$DW$265, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
     3289                            .dwattr $C$DW$265, DW_AT_accessibility(DW_ACCESS_public)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   61
@@ -3658,7 +3658,7 @@ InputOutput.asm                                                      PAGE   61
     3342                            .dwattr $C$DW$T$189, DW_AT_language(DW_LANG_C)
     3343                            .dwattr $C$DW$T$189, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     3344                            .dwattr $C$DW$T$189, DW_AT_decl_line(0x1b2)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   62
@@ -3718,7 +3718,7 @@ InputOutput.asm                                                      PAGE   62
     3397                            .dwattr $C$DW$274, DW_AT_decl_line(0x1c2)
     3398                            .dwattr $C$DW$274, DW_AT_decl_column(0x11)
     3399                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   63
@@ -3778,7 +3778,7 @@ InputOutput.asm                                                      PAGE   63
     3452                            .dwattr $C$DW$280, DW_AT_name("DIRB16")
     3453                            .dwattr $C$DW$280, DW_AT_TI_symbol_name("DIRB16")
     3454                            .dwattr $C$DW$280, DW_AT_data_member_location[DW_OP_plus_uconst 0x14]
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   64
@@ -3838,7 +3838,7 @@ InputOutput.asm                                                      PAGE   64
     3507                            .dwattr $C$DW$T$190, DW_AT_type(*$C$DW$T$78)
     3508                            .dwattr $C$DW$T$190, DW_AT_language(DW_LANG_C)
     3509                            .dwattr $C$DW$T$190, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   65
@@ -3898,7 +3898,7 @@ InputOutput.asm                                                      PAGE   65
     3562                            .dwattr $C$DW$289, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     3563                            .dwattr $C$DW$289, DW_AT_decl_line(0x1dd)
     3564                            .dwattr $C$DW$289, DW_AT_decl_column(0x11)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   66
@@ -3958,7 +3958,7 @@ InputOutput.asm                                                      PAGE   66
     3617                            .dwattr $C$DW$295, DW_AT_type(*$C$DW$T$28)
     3618                            .dwattr $C$DW$295, DW_AT_name("RESERVED2")
     3619                            .dwattr $C$DW$295, DW_AT_TI_symbol_name("RESERVED2")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   67
@@ -4018,7 +4018,7 @@ InputOutput.asm                                                      PAGE   67
     3672                            .dwattr $C$DW$300, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     3673                            .dwattr $C$DW$300, DW_AT_decl_line(0x1e8)
     3674                            .dwattr $C$DW$300, DW_AT_decl_column(0x11)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   68
@@ -4078,7 +4078,7 @@ InputOutput.asm                                                      PAGE   68
     3727                            .dwattr $C$DW$304, DW_AT_accessibility(DW_ACCESS_public)
     3728                            .dwattr $C$DW$304, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     3729                            .dwattr $C$DW$304, DW_AT_decl_line(0x1fb)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   69
@@ -4138,7 +4138,7 @@ InputOutput.asm                                                      PAGE   69
     3782                            .dwattr $C$DW$308, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3783                            .dwattr $C$DW$308, DW_AT_accessibility(DW_ACCESS_public)
     3784                            .dwattr $C$DW$308, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   70
@@ -4198,7 +4198,7 @@ InputOutput.asm                                                      PAGE   70
     3837                            .dwattr $C$DW$312, DW_AT_TI_symbol_name("DS_L")
     3838                            .dwattr $C$DW$312, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3839                            .dwattr $C$DW$312, DW_AT_accessibility(DW_ACCESS_public)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   71
@@ -4258,7 +4258,7 @@ InputOutput.asm                                                      PAGE   71
     3892                            .dwattr $C$DW$316, DW_AT_name("SEL1_L")
     3893                            .dwattr $C$DW$316, DW_AT_TI_symbol_name("SEL1_L")
     3894                            .dwattr $C$DW$316, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   72
@@ -4318,7 +4318,7 @@ InputOutput.asm                                                      PAGE   72
     3947                            .dwattr $C$DW$320, DW_AT_type(*$C$DW$T$21)
     3948                            .dwattr $C$DW$320, DW_AT_name("IES_L")
     3949                            .dwattr $C$DW$320, DW_AT_TI_symbol_name("IES_L")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   73
@@ -4378,7 +4378,7 @@ InputOutput.asm                                                      PAGE   73
     4002                    $C$DW$324       .dwtag  DW_TAG_member
     4003                            .dwattr $C$DW$324, DW_AT_type(*$C$DW$T$21)
     4004                            .dwattr $C$DW$324, DW_AT_name("IFG_L")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   74
@@ -4438,7 +4438,7 @@ InputOutput.asm                                                      PAGE   74
     4057                            .dwattr $C$DW$328, DW_AT_decl_line(0x206)
     4058                            .dwattr $C$DW$328, DW_AT_decl_column(0x03)
     4059                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   75
@@ -4498,7 +4498,7 @@ InputOutput.asm                                                      PAGE   75
     4112                            .dwattr $C$DW$334, DW_AT_name("RESERVED0")
     4113                            .dwattr $C$DW$334, DW_AT_TI_symbol_name("RESERVED0")
     4114                            .dwattr $C$DW$334, DW_AT_data_member_location[DW_OP_plus_uconst 0x10]
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   76
@@ -4558,7 +4558,7 @@ InputOutput.asm                                                      PAGE   76
     4167                            .dwattr $C$DW$339, DW_AT_decl_line(0x247)
     4168                            .dwattr $C$DW$339, DW_AT_decl_column(0x10)
     4169                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   77
@@ -4618,7 +4618,7 @@ InputOutput.asm                                                      PAGE   77
     4222                            .dwattr $C$DW$342, DW_AT_decl_column(0x14)
     4223                    
     4224                    $C$DW$343       .dwtag  DW_TAG_member
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   78
@@ -4678,7 +4678,7 @@ InputOutput.asm                                                      PAGE   78
     4277                            .dwattr $C$DW$346, DW_AT_decl_line(0x263)
     4278                            .dwattr $C$DW$346, DW_AT_decl_column(0x14)
     4279                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   79
@@ -4738,7 +4738,7 @@ InputOutput.asm                                                      PAGE   79
     4332                            .dwattr $C$DW$350, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     4333                            .dwattr $C$DW$350, DW_AT_decl_line(0x271)
     4334                            .dwattr $C$DW$350, DW_AT_decl_column(0x14)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   80
@@ -4798,7 +4798,7 @@ InputOutput.asm                                                      PAGE   80
     4387                            .dwattr $C$DW$354, DW_AT_accessibility(DW_ACCESS_public)
     4388                            .dwattr $C$DW$354, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     4389                            .dwattr $C$DW$354, DW_AT_decl_line(0x280)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   81
@@ -4858,7 +4858,7 @@ InputOutput.asm                                                      PAGE   81
     4442                            .dwattr $C$DW$359, DW_AT_name("$P$T33")
     4443                            .dwattr $C$DW$359, DW_AT_TI_symbol_name("$P$T33")
     4444                            .dwattr $C$DW$359, DW_AT_data_member_location[DW_OP_plus_uconst 0x6]
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   82
@@ -4918,7 +4918,7 @@ InputOutput.asm                                                      PAGE   82
     4497                            .dwattr $C$DW$364, DW_AT_decl_line(0x27d)
     4498                            .dwattr $C$DW$364, DW_AT_decl_column(0x03)
     4499                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   83
@@ -4978,7 +4978,7 @@ InputOutput.asm                                                      PAGE   83
     4552                            .dwattr $C$DW$368, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     4553                            .dwattr $C$DW$368, DW_AT_decl_line(0x2c9)
     4554                            .dwattr $C$DW$368, DW_AT_decl_column(0x11)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   84
@@ -5038,7 +5038,7 @@ InputOutput.asm                                                      PAGE   84
     4607                            .dwattr $C$DW$374, DW_AT_type(*$C$DW$T$40)
     4608                            .dwattr $C$DW$374, DW_AT_name("INT0_SRCFLG")
     4609                            .dwattr $C$DW$374, DW_AT_TI_symbol_name("INT0_SRCFLG")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   85
@@ -5098,7 +5098,7 @@ InputOutput.asm                                                      PAGE   85
     4662                    $C$DW$378       .dwtag  DW_TAG_member
     4663                            .dwattr $C$DW$378, DW_AT_type(*$C$DW$T$33)
     4664                            .dwattr $C$DW$378, DW_AT_name("CTLBASE")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   86
@@ -5158,7 +5158,7 @@ InputOutput.asm                                                      PAGE   86
     4717                            .dwattr $C$DW$383, DW_AT_accessibility(DW_ACCESS_public)
     4718                            .dwattr $C$DW$383, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     4719                            .dwattr $C$DW$383, DW_AT_decl_line(0x2db)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   87
@@ -5218,7 +5218,7 @@ InputOutput.asm                                                      PAGE   87
     4772                    $C$DW$389       .dwtag  DW_TAG_member
     4773                            .dwattr $C$DW$389, DW_AT_type(*$C$DW$T$33)
     4774                            .dwattr $C$DW$389, DW_AT_name("ALTCLR")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   88
@@ -5278,7 +5278,7 @@ InputOutput.asm                                                      PAGE   88
     4827                    $C$DW$T$195     .dwtag  DW_TAG_typedef
     4828                            .dwattr $C$DW$T$195, DW_AT_name("DMA_Control_Type")
     4829                            .dwattr $C$DW$T$195, DW_AT_type(*$C$DW$T$107)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   89
@@ -5338,7 +5338,7 @@ InputOutput.asm                                                      PAGE   89
     4882                            .dwattr $C$DW$398, DW_AT_data_member_location[DW_OP_plus_uconst 0x8]
     4883                            .dwattr $C$DW$398, DW_AT_accessibility(DW_ACCESS_public)
     4884                            .dwattr $C$DW$398, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   90
@@ -5398,7 +5398,7 @@ InputOutput.asm                                                      PAGE   90
     4937                    
     4938                    $C$DW$404       .dwtag  DW_TAG_member
     4939                            .dwattr $C$DW$404, DW_AT_type(*$C$DW$T$92)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   91
@@ -5458,7 +5458,7 @@ InputOutput.asm                                                      PAGE   91
     4992                    $C$DW$T$110     .dwtag  DW_TAG_structure_type
     4993                            .dwattr $C$DW$T$110, DW_AT_byte_size(0x20)
     4994                    $C$DW$408       .dwtag  DW_TAG_member
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   92
@@ -5518,7 +5518,7 @@ InputOutput.asm                                                      PAGE   92
     5047                            .dwattr $C$DW$413, DW_AT_TI_symbol_name("RXBUF")
     5048                            .dwattr $C$DW$413, DW_AT_data_member_location[DW_OP_plus_uconst 0xc]
     5049                            .dwattr $C$DW$413, DW_AT_accessibility(DW_ACCESS_public)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   93
@@ -5578,7 +5578,7 @@ InputOutput.asm                                                      PAGE   93
     5102                            .dwattr $C$DW$418, DW_AT_decl_column(0x11)
     5103                    
     5104                            .dwattr $C$DW$T$110, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   94
@@ -5638,7 +5638,7 @@ InputOutput.asm                                                      PAGE   94
     5157                            .dwattr $C$DW$422, DW_AT_decl_line(0x322)
     5158                            .dwattr $C$DW$422, DW_AT_decl_column(0x11)
     5159                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   95
@@ -5698,7 +5698,7 @@ InputOutput.asm                                                      PAGE   95
     5212                            .dwattr $C$DW$428, DW_AT_name("I2COA0")
     5213                            .dwattr $C$DW$428, DW_AT_TI_symbol_name("I2COA0")
     5214                            .dwattr $C$DW$428, DW_AT_data_member_location[DW_OP_plus_uconst 0x14]
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   96
@@ -5758,7 +5758,7 @@ InputOutput.asm                                                      PAGE   96
     5267                            .dwattr $C$DW$433, DW_AT_decl_line(0x32d)
     5268                            .dwattr $C$DW$433, DW_AT_decl_column(0x11)
     5269                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   97
@@ -5818,7 +5818,7 @@ InputOutput.asm                                                      PAGE   97
     5322                            .dwattr $C$DW$T$111, DW_AT_decl_column(0x10)
     5323                            .dwendtag $C$DW$T$111
     5324                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   98
@@ -5878,7 +5878,7 @@ InputOutput.asm                                                      PAGE   98
     5377                            .dwattr $C$DW$443, DW_AT_type(*$C$DW$T$22)
     5378                            .dwattr $C$DW$443, DW_AT_name("RESERVED1")
     5379                            .dwattr $C$DW$443, DW_AT_TI_symbol_name("RESERVED1")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE   99
@@ -5938,7 +5938,7 @@ InputOutput.asm                                                      PAGE   99
     5432                            .dwattr $C$DW$448, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     5433                            .dwattr $C$DW$448, DW_AT_decl_line(0x344)
     5434                            .dwattr $C$DW$448, DW_AT_decl_column(0x11)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  100
@@ -5998,7 +5998,7 @@ InputOutput.asm                                                      PAGE  100
     5487                            .dwattr $C$DW$452, DW_AT_accessibility(DW_ACCESS_public)
     5488                            .dwattr $C$DW$452, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     5489                            .dwattr $C$DW$452, DW_AT_decl_line(0x354)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  101
@@ -6058,7 +6058,7 @@ InputOutput.asm                                                      PAGE  101
     5542                    $C$DW$458       .dwtag  DW_TAG_member
     5543                            .dwattr $C$DW$458, DW_AT_type(*$C$DW$T$114)
     5544                            .dwattr $C$DW$458, DW_AT_name("RESERVED2")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  102
@@ -6118,7 +6118,7 @@ InputOutput.asm                                                      PAGE  102
     5597                            .dwattr $C$DW$463, DW_AT_accessibility(DW_ACCESS_public)
     5598                            .dwattr $C$DW$463, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     5599                            .dwattr $C$DW$463, DW_AT_decl_line(0x35f)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  103
@@ -6178,7 +6178,7 @@ InputOutput.asm                                                      PAGE  103
     5652                    $C$DW$469       .dwtag  DW_TAG_member
     5653                            .dwattr $C$DW$469, DW_AT_type(*$C$DW$T$33)
     5654                            .dwattr $C$DW$469, DW_AT_name("PRGBRST_DATA0_3")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  104
@@ -6238,7 +6238,7 @@ InputOutput.asm                                                      PAGE  104
     5707                            .dwattr $C$DW$474, DW_AT_accessibility(DW_ACCESS_public)
     5708                            .dwattr $C$DW$474, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     5709                            .dwattr $C$DW$474, DW_AT_decl_line(0x36a)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  105
@@ -6298,7 +6298,7 @@ InputOutput.asm                                                      PAGE  105
     5762                    $C$DW$480       .dwtag  DW_TAG_member
     5763                            .dwattr $C$DW$480, DW_AT_type(*$C$DW$T$33)
     5764                            .dwattr $C$DW$480, DW_AT_name("PRGBRST_DATA3_2")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  106
@@ -6358,7 +6358,7 @@ InputOutput.asm                                                      PAGE  106
     5817                            .dwattr $C$DW$485, DW_AT_accessibility(DW_ACCESS_public)
     5818                            .dwattr $C$DW$485, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     5819                            .dwattr $C$DW$485, DW_AT_decl_line(0x375)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  107
@@ -6418,7 +6418,7 @@ InputOutput.asm                                                      PAGE  107
     5872                    $C$DW$491       .dwtag  DW_TAG_member
     5873                            .dwattr $C$DW$491, DW_AT_type(*$C$DW$T$33)
     5874                            .dwattr $C$DW$491, DW_AT_name("BMRK_CTLSTAT")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  108
@@ -6478,7 +6478,7 @@ InputOutput.asm                                                      PAGE  108
     5927                            .dwattr $C$DW$496, DW_AT_accessibility(DW_ACCESS_public)
     5928                            .dwattr $C$DW$496, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     5929                            .dwattr $C$DW$496, DW_AT_decl_line(0x380)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  109
@@ -6538,7 +6538,7 @@ InputOutput.asm                                                      PAGE  109
     5982                    $C$DW$502       .dwtag  DW_TAG_member
     5983                            .dwattr $C$DW$502, DW_AT_type(*$C$DW$T$40)
     5984                            .dwattr $C$DW$502, DW_AT_name("PRGVER_TIMCTL")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  110
@@ -6598,7 +6598,7 @@ InputOutput.asm                                                      PAGE  110
     6037                            .dwattr $C$DW$507, DW_AT_accessibility(DW_ACCESS_public)
     6038                            .dwattr $C$DW$507, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     6039                            .dwattr $C$DW$507, DW_AT_decl_line(0x38b)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  111
@@ -6658,7 +6658,7 @@ InputOutput.asm                                                      PAGE  111
     6092                            .dwattr $C$DW$511, DW_AT_data_member_location[DW_OP_plus_uconst 0x8]
     6093                            .dwattr $C$DW$511, DW_AT_accessibility(DW_ACCESS_public)
     6094                            .dwattr $C$DW$511, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  112
@@ -6718,7 +6718,7 @@ InputOutput.asm                                                      PAGE  112
     6147                    
     6148                    $C$DW$517       .dwtag  DW_TAG_member
     6149                            .dwattr $C$DW$517, DW_AT_type(*$C$DW$T$33)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  113
@@ -6778,7 +6778,7 @@ InputOutput.asm                                                      PAGE  113
     6202                            .dwattr $C$DW$520, DW_AT_decl_column(0x11)
     6203                    
     6204                    $C$DW$521       .dwtag  DW_TAG_member
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  114
@@ -6838,7 +6838,7 @@ InputOutput.asm                                                      PAGE  114
     6257                    
     6258                    $C$DW$T$123     .dwtag  DW_TAG_structure_type
     6259                            .dwattr $C$DW$T$123, DW_AT_byte_size(0x290)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  115
@@ -6898,7 +6898,7 @@ InputOutput.asm                                                      PAGE  115
     6312                            .dwattr $C$DW$530, DW_AT_name("JTAG_SWD_LOCK_AES_SECKEYS")
     6313                            .dwattr $C$DW$530, DW_AT_TI_symbol_name("JTAG_SWD_LOCK_AES_SECKEYS")
     6314                            .dwattr $C$DW$530, DW_AT_data_member_location[DW_OP_plus_uconst 0x24]
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  116
@@ -6958,7 +6958,7 @@ InputOutput.asm                                                      PAGE  116
     6367                            .dwattr $C$DW$535, DW_AT_decl_line(0x3c1)
     6368                            .dwattr $C$DW$535, DW_AT_decl_column(0x11)
     6369                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  117
@@ -7018,7 +7018,7 @@ InputOutput.asm                                                      PAGE  117
     6422                            .dwattr $C$DW$541, DW_AT_name("JTAG_SWD_LOCK_ENCPAYLOADLEN")
     6423                            .dwattr $C$DW$541, DW_AT_TI_symbol_name("JTAG_SWD_LOCK_ENCPAYLOADLEN")
     6424                            .dwattr $C$DW$541, DW_AT_data_member_location[DW_OP_plus_uconst 0x1fc]
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  118
@@ -7078,7 +7078,7 @@ InputOutput.asm                                                      PAGE  118
     6477                            .dwattr $C$DW$546, DW_AT_decl_line(0x3cc)
     6478                            .dwattr $C$DW$546, DW_AT_decl_column(0x11)
     6479                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  119
@@ -7138,7 +7138,7 @@ InputOutput.asm                                                      PAGE  119
     6532                            .dwattr $C$DW$552, DW_AT_name("FACTORY_RESET_PASSWORD")
     6533                            .dwattr $C$DW$552, DW_AT_TI_symbol_name("FACTORY_RESET_PASSWORD")
     6534                            .dwattr $C$DW$552, DW_AT_data_member_location[DW_OP_plus_uconst 0x270]
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  120
@@ -7198,7 +7198,7 @@ InputOutput.asm                                                      PAGE  120
     6587                            .dwattr $C$DW$556, DW_AT_type(*$C$DW$T$33)
     6588                            .dwattr $C$DW$556, DW_AT_name("CTL0")
     6589                            .dwattr $C$DW$556, DW_AT_TI_symbol_name("CTL0")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  121
@@ -7258,7 +7258,7 @@ InputOutput.asm                                                      PAGE  121
     6642                            .dwattr $C$DW$T$202, DW_AT_name("PCM_Type")
     6643                            .dwattr $C$DW$T$202, DW_AT_type(*$C$DW$T$124)
     6644                            .dwattr $C$DW$T$202, DW_AT_language(DW_LANG_C)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  122
@@ -7318,7 +7318,7 @@ InputOutput.asm                                                      PAGE  122
     6697                    
     6698                    $C$DW$564       .dwtag  DW_TAG_member
     6699                            .dwattr $C$DW$564, DW_AT_type(*$C$DW$T$21)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  123
@@ -7378,7 +7378,7 @@ InputOutput.asm                                                      PAGE  123
     6752                            .dwattr $C$DW$569, DW_AT_data_member_location[DW_OP_plus_uconst 0x6]
     6753                            .dwattr $C$DW$569, DW_AT_accessibility(DW_ACCESS_public)
     6754                            .dwattr $C$DW$569, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  124
@@ -7438,7 +7438,7 @@ InputOutput.asm                                                      PAGE  124
     6807                            .dwattr $C$DW$572, DW_AT_accessibility(DW_ACCESS_public)
     6808                            .dwattr $C$DW$572, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     6809                            .dwattr $C$DW$572, DW_AT_decl_line(0x411)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  125
@@ -7498,7 +7498,7 @@ InputOutput.asm                                                      PAGE  125
     6862                            .dwattr $C$DW$T$129, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     6863                            .dwattr $C$DW$T$129, DW_AT_decl_line(0x410)
     6864                            .dwattr $C$DW$T$129, DW_AT_decl_column(0x10)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  126
@@ -7558,7 +7558,7 @@ InputOutput.asm                                                      PAGE  126
     6917                            .dwattr $C$DW$580, DW_AT_TI_symbol_name("HARDRESET_STAT")
     6918                            .dwattr $C$DW$580, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
     6919                            .dwattr $C$DW$580, DW_AT_accessibility(DW_ACCESS_public)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  127
@@ -7618,7 +7618,7 @@ InputOutput.asm                                                      PAGE  127
     6972                            .dwattr $C$DW$585, DW_AT_decl_column(0x11)
     6973                    
     6974                    $C$DW$586       .dwtag  DW_TAG_member
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  128
@@ -7678,7 +7678,7 @@ InputOutput.asm                                                      PAGE  128
     7027                            .dwattr $C$DW$591, DW_AT_TI_symbol_name("PINRESET_STAT")
     7028                            .dwattr $C$DW$591, DW_AT_data_member_location[DW_OP_plus_uconst 0x110]
     7029                            .dwattr $C$DW$591, DW_AT_accessibility(DW_ACCESS_public)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  129
@@ -7738,7 +7738,7 @@ InputOutput.asm                                                      PAGE  129
     7082                            .dwattr $C$DW$596, DW_AT_decl_column(0x11)
     7083                    
     7084                            .dwattr $C$DW$T$132, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  130
@@ -7798,7 +7798,7 @@ InputOutput.asm                                                      PAGE  130
     7137                            .dwattr $C$DW$600, DW_AT_decl_line(0x451)
     7138                            .dwattr $C$DW$600, DW_AT_decl_column(0x11)
     7139                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  131
@@ -7858,7 +7858,7 @@ InputOutput.asm                                                      PAGE  131
     7192                            .dwattr $C$DW$606, DW_AT_name("TIM1")
     7193                            .dwattr $C$DW$606, DW_AT_TI_symbol_name("TIM1")
     7194                            .dwattr $C$DW$606, DW_AT_data_member_location[DW_OP_plus_uconst 0x12]
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  132
@@ -7918,7 +7918,7 @@ InputOutput.asm                                                      PAGE  132
     7247                            .dwattr $C$DW$611, DW_AT_decl_line(0x45c)
     7248                            .dwattr $C$DW$611, DW_AT_decl_column(0x11)
     7249                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  133
@@ -7978,7 +7978,7 @@ InputOutput.asm                                                      PAGE  133
     7302                            .dwattr $C$DW$615, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     7303                            .dwattr $C$DW$615, DW_AT_decl_line(0x468)
     7304                            .dwattr $C$DW$615, DW_AT_decl_column(0x11)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  134
@@ -8038,7 +8038,7 @@ InputOutput.asm                                                      PAGE  134
     7357                            .dwattr $C$DW$T$209, DW_AT_decl_column(0x03)
     7358                    
     7359                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  135
@@ -8098,7 +8098,7 @@ InputOutput.asm                                                      PAGE  135
     7412                    $C$DW$625       .dwtag  DW_TAG_member
     7413                            .dwattr $C$DW$625, DW_AT_type(*$C$DW$T$33)
     7414                            .dwattr $C$DW$625, DW_AT_name("SRAM_BANKEN")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  136
@@ -8158,7 +8158,7 @@ InputOutput.asm                                                      PAGE  136
     7467                            .dwattr $C$DW$630, DW_AT_accessibility(DW_ACCESS_public)
     7468                            .dwattr $C$DW$630, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     7469                            .dwattr $C$DW$630, DW_AT_decl_line(0x483)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  137
@@ -8218,7 +8218,7 @@ InputOutput.asm                                                      PAGE  137
     7522                            .dwattr $C$DW$634, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
     7523                            .dwattr $C$DW$634, DW_AT_accessibility(DW_ACCESS_public)
     7524                            .dwattr $C$DW$634, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  138
@@ -8278,7 +8278,7 @@ InputOutput.asm                                                      PAGE  138
     7577                    
     7578                            .dwattr $C$DW$T$138, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     7579                            .dwattr $C$DW$T$138, DW_AT_decl_line(0x488)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  139
@@ -8338,7 +8338,7 @@ InputOutput.asm                                                      PAGE  139
     7632                            .dwattr $C$DW$643, DW_AT_decl_column(0x11)
     7633                    
     7634                    $C$DW$644       .dwtag  DW_TAG_member
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  140
@@ -8398,7 +8398,7 @@ InputOutput.asm                                                      PAGE  140
     7687                            .dwattr $C$DW$647, DW_AT_decl_line(0x4af)
     7688                            .dwattr $C$DW$647, DW_AT_decl_column(0x11)
     7689                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  141
@@ -8458,7 +8458,7 @@ InputOutput.asm                                                      PAGE  141
     7742                            .dwattr $C$DW$653, DW_AT_name("EX0")
     7743                            .dwattr $C$DW$653, DW_AT_TI_symbol_name("EX0")
     7744                            .dwattr $C$DW$653, DW_AT_data_member_location[DW_OP_plus_uconst 0x20]
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  142
@@ -8518,7 +8518,7 @@ InputOutput.asm                                                      PAGE  142
     7797                            .dwattr $C$DW$657, DW_AT_type(*$C$DW$T$40)
     7798                            .dwattr $C$DW$657, DW_AT_name("DEVICE_INFO_TAG")
     7799                            .dwattr $C$DW$657, DW_AT_TI_symbol_name("DEVICE_INFO_TAG")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  143
@@ -8578,7 +8578,7 @@ InputOutput.asm                                                      PAGE  143
     7852                            .dwattr $C$DW$662, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     7853                            .dwattr $C$DW$662, DW_AT_decl_line(0x4ca)
     7854                            .dwattr $C$DW$662, DW_AT_decl_column(0x11)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  144
@@ -8638,7 +8638,7 @@ InputOutput.asm                                                      PAGE  144
     7907                            .dwattr $C$DW$668, DW_AT_type(*$C$DW$T$40)
     7908                            .dwattr $C$DW$668, DW_AT_name("LOT_ID")
     7909                            .dwattr $C$DW$668, DW_AT_TI_symbol_name("LOT_ID")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  145
@@ -8698,7 +8698,7 @@ InputOutput.asm                                                      PAGE  145
     7962                            .dwattr $C$DW$673, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     7963                            .dwattr $C$DW$673, DW_AT_decl_line(0x4d5)
     7964                            .dwattr $C$DW$673, DW_AT_decl_column(0x11)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  146
@@ -8758,7 +8758,7 @@ InputOutput.asm                                                      PAGE  146
     8017                            .dwattr $C$DW$679, DW_AT_type(*$C$DW$T$40)
     8018                            .dwattr $C$DW$679, DW_AT_name("RESERVED5")
     8019                            .dwattr $C$DW$679, DW_AT_TI_symbol_name("RESERVED5")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  147
@@ -8818,7 +8818,7 @@ InputOutput.asm                                                      PAGE  147
     8072                            .dwattr $C$DW$684, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     8073                            .dwattr $C$DW$684, DW_AT_decl_line(0x4e0)
     8074                            .dwattr $C$DW$684, DW_AT_decl_column(0x11)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  148
@@ -8878,7 +8878,7 @@ InputOutput.asm                                                      PAGE  148
     8127                            .dwattr $C$DW$690, DW_AT_type(*$C$DW$T$40)
     8128                            .dwattr $C$DW$690, DW_AT_name("DCOER_CONSTK_RSEL5")
     8129                            .dwattr $C$DW$690, DW_AT_TI_symbol_name("DCOER_CONSTK_RSEL5")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  149
@@ -8938,7 +8938,7 @@ InputOutput.asm                                                      PAGE  149
     8182                            .dwattr $C$DW$695, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     8183                            .dwattr $C$DW$695, DW_AT_decl_line(0x4eb)
     8184                            .dwattr $C$DW$695, DW_AT_decl_column(0x11)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  150
@@ -8998,7 +8998,7 @@ InputOutput.asm                                                      PAGE  150
     8237                            .dwattr $C$DW$701, DW_AT_type(*$C$DW$T$40)
     8238                            .dwattr $C$DW$701, DW_AT_name("RESERVED17")
     8239                            .dwattr $C$DW$701, DW_AT_TI_symbol_name("RESERVED17")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  151
@@ -9058,7 +9058,7 @@ InputOutput.asm                                                      PAGE  151
     8292                            .dwattr $C$DW$706, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     8293                            .dwattr $C$DW$706, DW_AT_decl_line(0x4f6)
     8294                            .dwattr $C$DW$706, DW_AT_decl_column(0x11)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  152
@@ -9118,7 +9118,7 @@ InputOutput.asm                                                      PAGE  152
     8347                            .dwattr $C$DW$712, DW_AT_type(*$C$DW$T$40)
     8348                            .dwattr $C$DW$712, DW_AT_name("ADC14_REF1P2V_TS85C")
     8349                            .dwattr $C$DW$712, DW_AT_TI_symbol_name("ADC14_REF1P2V_TS85C")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  153
@@ -9178,7 +9178,7 @@ InputOutput.asm                                                      PAGE  153
     8402                            .dwattr $C$DW$717, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     8403                            .dwattr $C$DW$717, DW_AT_decl_line(0x501)
     8404                            .dwattr $C$DW$717, DW_AT_decl_column(0x11)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  154
@@ -9238,7 +9238,7 @@ InputOutput.asm                                                      PAGE  154
     8457                            .dwattr $C$DW$723, DW_AT_type(*$C$DW$T$40)
     8458                            .dwattr $C$DW$723, DW_AT_name("FLASH_INFO_LEN")
     8459                            .dwattr $C$DW$723, DW_AT_TI_symbol_name("FLASH_INFO_LEN")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  155
@@ -9298,7 +9298,7 @@ InputOutput.asm                                                      PAGE  155
     8512                            .dwattr $C$DW$728, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     8513                            .dwattr $C$DW$728, DW_AT_decl_line(0x50c)
     8514                            .dwattr $C$DW$728, DW_AT_decl_column(0x11)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  156
@@ -9358,7 +9358,7 @@ InputOutput.asm                                                      PAGE  156
     8567                            .dwattr $C$DW$734, DW_AT_type(*$C$DW$T$40)
     8568                            .dwattr $C$DW$734, DW_AT_name("BSL_PERIPHIF_SEL")
     8569                            .dwattr $C$DW$734, DW_AT_TI_symbol_name("BSL_PERIPHIF_SEL")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  157
@@ -9418,7 +9418,7 @@ InputOutput.asm                                                      PAGE  157
     8622                            .dwattr $C$DW$T$214, DW_AT_name("TLV_Type")
     8623                            .dwattr $C$DW$T$214, DW_AT_type(*$C$DW$T$143)
     8624                            .dwattr $C$DW$T$214, DW_AT_language(DW_LANG_C)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  158
@@ -9478,7 +9478,7 @@ InputOutput.asm                                                      PAGE  158
     8677                    
     8678                    $C$DW$742       .dwtag  DW_TAG_member
     8679                            .dwattr $C$DW$742, DW_AT_type(*$C$DW$T$28)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  159
@@ -9538,7 +9538,7 @@ InputOutput.asm                                                      PAGE  159
     8732                            .dwattr $C$DW$T$217, DW_AT_language(DW_LANG_C)
     8733                            .dwattr $C$DW$T$217, DW_AT_decl_file("C:/ti/ccsv7/ccs_base/arm/include/CMSIS/core_cm4.h")
     8734                            .dwattr $C$DW$T$217, DW_AT_decl_line(0x130)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  160
@@ -9598,7 +9598,7 @@ InputOutput.asm                                                      PAGE  160
     8787                            .dwattr $C$DW$748, DW_AT_type(*$C$DW$T$28)
     8788                            .dwattr $C$DW$748, DW_AT_name("w")
     8789                            .dwattr $C$DW$748, DW_AT_TI_symbol_name("w")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  161
@@ -9658,7 +9658,7 @@ InputOutput.asm                                                      PAGE  161
     8842                            .dwattr $C$DW$T$149, DW_AT_decl_file("C:/ti/ccsv7/ccs_base/arm/include/CMSIS/core_cm4.h")
     8843                            .dwattr $C$DW$T$149, DW_AT_decl_line(0x32c)
     8844                            .dwattr $C$DW$T$149, DW_AT_decl_column(0x03)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  162
@@ -9718,7 +9718,7 @@ InputOutput.asm                                                      PAGE  162
     8897                            .dwattr $C$DW$755, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     8898                            .dwattr $C$DW$755, DW_AT_decl_line(0x200)
     8899                            .dwattr $C$DW$755, DW_AT_decl_column(0x13)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  163
@@ -9778,7 +9778,7 @@ InputOutput.asm                                                      PAGE  163
     8952                            .dwattr $C$DW$759, DW_AT_accessibility(DW_ACCESS_public)
     8953                            .dwattr $C$DW$759, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     8954                            .dwattr $C$DW$759, DW_AT_decl_line(0x20e)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  164
@@ -9838,7 +9838,7 @@ InputOutput.asm                                                      PAGE  164
     9007                            .dwattr $C$DW$763, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     9008                            .dwattr $C$DW$763, DW_AT_accessibility(DW_ACCESS_public)
     9009                            .dwattr $C$DW$763, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  165
@@ -9898,7 +9898,7 @@ InputOutput.asm                                                      PAGE  165
     9062                            .dwattr $C$DW$767, DW_AT_TI_symbol_name("SELC")
     9063                            .dwattr $C$DW$767, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     9064                            .dwattr $C$DW$767, DW_AT_accessibility(DW_ACCESS_public)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  166
@@ -9958,7 +9958,7 @@ InputOutput.asm                                                      PAGE  166
     9117                            .dwattr $C$DW$771, DW_AT_name("IE")
     9118                            .dwattr $C$DW$771, DW_AT_TI_symbol_name("IE")
     9119                            .dwattr $C$DW$771, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  167
@@ -10018,7 +10018,7 @@ InputOutput.asm                                                      PAGE  167
     9172                            .dwattr $C$DW$775, DW_AT_type(*$C$DW$T$23)
     9173                            .dwattr $C$DW$775, DW_AT_name("IN")
     9174                            .dwattr $C$DW$775, DW_AT_TI_symbol_name("IN")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  168
@@ -10078,7 +10078,7 @@ InputOutput.asm                                                      PAGE  168
     9227                    $C$DW$779       .dwtag  DW_TAG_member
     9228                            .dwattr $C$DW$779, DW_AT_type(*$C$DW$T$72)
     9229                            .dwattr $C$DW$779, DW_AT_name("DIR")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  169
@@ -10138,7 +10138,7 @@ InputOutput.asm                                                      PAGE  169
     9282                            .dwattr $C$DW$T$165, DW_AT_byte_size(0x02)
     9283                    $C$DW$783       .dwtag  DW_TAG_member
     9284                            .dwattr $C$DW$783, DW_AT_type(*$C$DW$T$72)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  170
@@ -10198,7 +10198,7 @@ InputOutput.asm                                                      PAGE  170
     9337                    $C$DW$T$167     .dwtag  DW_TAG_union_type
     9338                            .dwattr $C$DW$T$167, DW_AT_byte_size(0x02)
     9339                    $C$DW$787       .dwtag  DW_TAG_member
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  171
@@ -10258,7 +10258,7 @@ InputOutput.asm                                                      PAGE  171
     9392                    
     9393                    $C$DW$T$170     .dwtag  DW_TAG_union_type
     9394                            .dwattr $C$DW$T$170, DW_AT_byte_size(0x08)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  172
@@ -10318,7 +10318,7 @@ InputOutput.asm                                                      PAGE  172
     9447                            .dwattr $C$DW$796, DW_AT_const_value(-11)
     9448                            .dwattr $C$DW$796, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
     9449                            .dwattr $C$DW$796, DW_AT_decl_line(0x6b)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  173
@@ -10378,7 +10378,7 @@ InputOutput.asm                                                      PAGE  173
     9502                            .dwattr $C$DW$804, DW_AT_name("PCM_IRQn")
     9503                            .dwattr $C$DW$804, DW_AT_const_value(0x02)
     9504                            .dwattr $C$DW$804, DW_AT_decl_file("C:\ti\ccsv7\ccs_base\arm\include\msp432p401r.h")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  174
@@ -10438,7 +10438,7 @@ InputOutput.asm                                                      PAGE  174
     9557                    $C$DW$812       .dwtag  DW_TAG_enumerator
     9558                            .dwattr $C$DW$812, DW_AT_name("TA1_0_IRQn")
     9559                            .dwattr $C$DW$812, DW_AT_const_value(0x0a)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  175
@@ -10498,7 +10498,7 @@ InputOutput.asm                                                      PAGE  175
     9612                    
     9613                    $C$DW$820       .dwtag  DW_TAG_enumerator
     9614                            .dwattr $C$DW$820, DW_AT_name("EUSCIA2_IRQn")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  176
@@ -10558,7 +10558,7 @@ InputOutput.asm                                                      PAGE  176
     9667                            .dwattr $C$DW$827, DW_AT_decl_column(0x03)
     9668                    
     9669                    $C$DW$828       .dwtag  DW_TAG_enumerator
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  177
@@ -10618,7 +10618,7 @@ InputOutput.asm                                                      PAGE  177
     9722                            .dwattr $C$DW$835, DW_AT_decl_line(0x93)
     9723                            .dwattr $C$DW$835, DW_AT_decl_column(0x03)
     9724                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  178
@@ -10678,7 +10678,7 @@ InputOutput.asm                                                      PAGE  178
     9777                            .dwendtag $C$DW$T$220
     9778                    
     9779                    $C$DW$T$221     .dwtag  DW_TAG_typedef
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  179
@@ -10738,7 +10738,7 @@ InputOutput.asm                                                      PAGE  179
     9832                            .dwattr $C$DW$T$227, DW_AT_decl_line(0x37)
     9833                            .dwattr $C$DW$T$227, DW_AT_decl_column(0x17)
     9834                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  180
@@ -10798,7 +10798,7 @@ InputOutput.asm                                                      PAGE  180
     9887                    
     9888                    $C$DW$T$41      .dwtag  DW_TAG_array_type
     9889                            .dwattr $C$DW$T$41, DW_AT_type(*$C$DW$T$21)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  181
@@ -10858,7 +10858,7 @@ InputOutput.asm                                                      PAGE  181
     9942                            .dwattr $C$DW$T$22, DW_AT_decl_column(0x1c)
     9943                    
     9944                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  182
@@ -10918,7 +10918,7 @@ InputOutput.asm                                                      PAGE  182
     9997                            .dwattr $C$DW$T$112, DW_AT_language(DW_LANG_C)
     9998                            .dwattr $C$DW$T$112, DW_AT_byte_size(0x1a)
     9999                    $C$DW$854       .dwtag  DW_TAG_subrange_type
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  183
@@ -10978,7 +10978,7 @@ InputOutput.asm                                                      PAGE  183
    10052                    
    10053                    $C$DW$T$233     .dwtag  DW_TAG_typedef
    10054                            .dwattr $C$DW$T$233, DW_AT_name("uint_least16_t")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  184
@@ -11038,7 +11038,7 @@ InputOutput.asm                                                      PAGE  184
    10107                            .dwattr $C$DW$T$240, DW_AT_name("intptr_t")
    10108                            .dwattr $C$DW$T$240, DW_AT_type(*$C$DW$T$10)
    10109                            .dwattr $C$DW$T$240, DW_AT_language(DW_LANG_C)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  185
@@ -11098,7 +11098,7 @@ InputOutput.asm                                                      PAGE  185
    10162                    $C$DW$863       .dwtag  DW_TAG_subrange_type
    10163                            .dwattr $C$DW$863, DW_AT_upper_bound(0x04)
    10164                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  186
@@ -11158,7 +11158,7 @@ InputOutput.asm                                                      PAGE  186
    10217                    
    10218                    $C$DW$T$56      .dwtag  DW_TAG_array_type
    10219                            .dwattr $C$DW$T$56, DW_AT_type(*$C$DW$T$28)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  187
@@ -11218,7 +11218,7 @@ InputOutput.asm                                                      PAGE  187
    10272                    $C$DW$874       .dwtag  DW_TAG_subrange_type
    10273                            .dwattr $C$DW$874, DW_AT_upper_bound(0x26)
    10274                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  188
@@ -11278,7 +11278,7 @@ InputOutput.asm                                                      PAGE  188
    10327                    
    10328                    $C$DW$T$114     .dwtag  DW_TAG_array_type
    10329                            .dwattr $C$DW$T$114, DW_AT_type(*$C$DW$T$28)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  189
@@ -11338,7 +11338,7 @@ InputOutput.asm                                                      PAGE  189
    10382                            .dwattr $C$DW$T$116, DW_AT_type(*$C$DW$T$33)
    10383                            .dwattr $C$DW$T$116, DW_AT_language(DW_LANG_C)
    10384                            .dwattr $C$DW$T$116, DW_AT_byte_size(0x10)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  190
@@ -11398,7 +11398,7 @@ InputOutput.asm                                                      PAGE  190
    10437                            .dwattr $C$DW$T$241, DW_AT_name("uint_fast16_t")
    10438                            .dwattr $C$DW$T$241, DW_AT_type(*$C$DW$T$28)
    10439                            .dwattr $C$DW$T$241, DW_AT_language(DW_LANG_C)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  191
@@ -11458,7 +11458,7 @@ InputOutput.asm                                                      PAGE  191
    10492                            .dwattr $C$DW$T$246, DW_AT_name("int64_t")
    10493                            .dwattr $C$DW$T$246, DW_AT_type(*$C$DW$T$14)
    10494                            .dwattr $C$DW$T$246, DW_AT_language(DW_LANG_C)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  192
@@ -11518,7 +11518,7 @@ InputOutput.asm                                                      PAGE  192
    10547                            .dwattr $C$DW$T$252, DW_AT_language(DW_LANG_C)
    10548                            .dwattr $C$DW$T$252, DW_AT_decl_file("C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/include
    10549                            .dwattr $C$DW$T$252, DW_AT_decl_line(0x41)
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  193
@@ -11578,7 +11578,7 @@ InputOutput.asm                                                      PAGE  193
    10602                            .dwcfi  same_value, 90
    10603                            .dwcfi  same_value, 91
    10604                            .dwcfi  same_value, 92
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  194
@@ -11638,7 +11638,7 @@ InputOutput.asm                                                      PAGE  194
    10657                    
    10658                    $C$DW$902       .dwtag  DW_TAG_TI_assign_register
    10659                            .dwattr $C$DW$902, DW_AT_name("V8")
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  195
@@ -11698,7 +11698,7 @@ InputOutput.asm                                                      PAGE  195
    10712                            .dwattr $C$DW$915, DW_AT_location[DW_OP_regx 0x46]
    10713                    
    10714                    $C$DW$916       .dwtag  DW_TAG_TI_assign_register
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  196
@@ -11758,7 +11758,7 @@ InputOutput.asm                                                      PAGE  196
    10767                            .dwattr $C$DW$929, DW_AT_name("D10")
    10768                            .dwattr $C$DW$929, DW_AT_location[DW_OP_regx 0x54]
    10769                    
-TI ARM Assembler PC v16.9.6 Fri Sep 23 13:10:07 2022
+TI ARM Assembler PC v16.9.6 Wed Nov 02 14:36:49 2022
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 InputOutput.asm                                                      PAGE  197
